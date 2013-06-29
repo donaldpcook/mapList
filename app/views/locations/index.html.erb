@@ -1,0 +1,27 @@
+<h1>Map List</h1>
+
+<div id="app" class="is-hidden">
+  <input type="text" name="name" placeholder="location" class="js-app-input" />
+  <a href="#" class="new btn">Add a location</a>
+  <ul id="location-list" class="app-list"></ul>
+  <div id="map" style="width: 100%; height: 500px"></div>
+</div>
+
+<div id="user">
+  <label class="user-instruction">Enter a username (either old or new)</label>
+  <input type="text" name="username" placeholder="Username" class="user-input js-user-input" />
+  <a href="#" class="js-submit-user btn user-enter">Enter</a>
+</div>
+
+<!-- templates -->
+<div id="location-template" style="display:none">
+  <div class="normal-mode">
+    <p>{{ name }}</p>
+    <a href="#" class="edit btn location-template-btn">Edit</a>
+    <a href="#" class="destroy btn location-template-btn">Remove</a>
+  </div>
+  <div class="edit-mode is-hidden">
+    <input type="text" name="username" class="user-input js-user-input" value="{{ name }}" />
+    <a href="#" class="btn location-template-btn js-update">Save</a>
+  </div>
+</div>

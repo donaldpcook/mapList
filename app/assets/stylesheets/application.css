@@ -1,0 +1,82 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+.is-hidden {
+  display: none;
+}
+
+.btn {
+  background: #186B8C;
+  color: #ffffff;
+  padding: 11px 12px 11px;
+  line-height: 18px;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-backface-visibility: hidden;
+}
+
+h1 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #092834;
+  color: #092834;
+  font: 2em normal helvetica, sans-serif;
+  text-align: center;
+}
+
+input {
+  border: 2px solid #186B8C;
+  color: #34495e;
+  font-size: 14px;
+  padding: 8px 5px;
+  height: 18px;
+  text-indent: 6px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-backface-visibility: hidden;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.user-instruction {
+  display: block;
+  color: #092834;
+}
+.user-input {
+  margin-top: 10px;
+}
+.user-enter {
+  display: inline;
+  margin-top: 20px;
+}
+
+.app-list p {
+  display: inline-block;
+  width: 200px;
+}
+
+.location-template-btn {
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
